@@ -1,0 +1,846 @@
+; Service Commander - Service Template
+;
+;Format:
+;[Actual Service Name]
+;Description=Actual Description
+;Start State=Start State
+;
+;Valid Start States:
+;Boot - Some services can't use this
+;System - Some services can't use this
+;Automatic
+;Disabled
+;Manual
+;
+;Note if the description or service name are not exact (excluding Case)
+;Service Commander will not be able to find the service as it uses both 
+;of these to make sure it has the right service
+;
+;This File needs to have an .ini extension for Service Commander to find it!
+;
+;Rather than filling out this template it would be easier to set up a computer 
+;how you want it and then back up the service profile (Believe Me I Know!)
+;This is here just in case you decide to make your own 
+;Service Commander 1.5 Bilgus
+;Contact: Me.TheUser@yahoo.com
+[Scmdr Profile Data 0.1.4]
+Date=07-31-2008
+Time=4:20:00
+Entries=102
+Extra Info=Service Template
+[Alerter]
+Description=Alerter
+Start State=
+
+
+
+
+[ALG]
+Description=Application Layer Gateway Service
+Start State=
+
+
+ 
+
+[AppMgmt]
+Description=Application Management
+Start State=
+
+
+ 
+
+[wuauserv] 
+Description= Updates
+Start State=
+
+
+ 
+
+[BITS] 
+Description=Background Intelligent Transfer Service
+Start State=
+
+
+ 
+
+[ClipSrv] 
+Description=ClipBook
+Start State=
+
+
+
+
+
+[EventSystem] 
+Description=COM+ Event System
+Start State=
+
+
+
+
+ 
+
+[COMSysApp] 
+Description=COM+ System Application
+Start State=
+
+
+
+ 
+
+[Browser] 
+Description=Computer Browser
+Start State=
+
+
+
+ 
+
+[CryptSvc] 
+Description=Cryptographic Services
+Start State=
+
+
+
+ 
+
+[DcomLaunch]
+Description=DCOM Server Process Launcher
+Start State=
+
+
+
+
+
+[Dhcp] 
+Description=DHCP Client
+Start State=
+
+
+
+ 
+
+[TrkWks] 
+Description=Distributed Link Tracking Client
+Start State=
+
+ 
+ 
+ 
+
+[MSDTC] 
+Description=Distributed Transaction Coordinator
+Start State=
+
+
+
+ 
+
+[Dnscache] 
+Description=DNS Client
+Start State=
+
+
+
+ 
+
+[ERSvc]
+Description=Error Reporting Service
+Start State=
+
+ 
+ 
+ 
+
+[Eventlog] 
+Description=Event Log
+Start State=
+
+
+
+
+
+[EapHost]
+Description=Extensible Authentication Protocol Service
+Start State=
+
+
+ 
+ 
+
+[FastUserSwitchingCompatibility] 
+Description=Fast User Switching Compatibility
+Start State=
+
+
+ 
+ 
+
+[Fax]
+Description=Fax
+Start State=
+
+
+
+
+
+[MSFtpsvc]
+Description=FTP Publishing
+Start State=
+
+
+
+
+
+[hkmsvc]
+Description=Health Key and Certificate Management Service
+Start State=
+
+
+ 
+ 
+
+[helpsvc]
+Description=Help and Support
+Start State=
+
+ 
+ 
+ 
+
+
+[HTTPFilter]
+Description=HTTP SSL
+Start State=
+
+
+ 
+ 
+
+[HidServ]
+Description=Human Interface Device Access
+Start State=
+
+
+
+
+
+
+[IISADMIN] 
+Description=IIS Admin
+Start State=
+
+
+
+
+
+[ImapiService] 
+Description=IMAPI CD-Burning COM Service
+Start State=
+
+
+
+ 
+
+[cisvc] 
+Description=Indexing Service
+Start State=
+
+ 
+ 
+ 
+
+[PolicyAgent]
+Description=IPSEC Services
+Start State=
+
+
+ 
+ 
+
+[6to4] 
+Description=IPv6 Helper Service
+Start State=
+
+
+
+
+
+[dmserver] 
+Description=Logical Disk Manager
+Start State=
+
+
+
+ 
+
+[dmadmin] 
+Description=Logical Disk Manager Administrative Service
+Start State=
+
+
+
+ 
+
+[ehRecvr]
+Description=Media Center Receiver Service 
+Start State=
+
+
+
+
+
+[MSMQ] 
+Description=Message Queuing
+Start State=
+
+
+
+
+
+
+[MSMQTriggers] 
+Description=Message Queuing Triggers
+Start State=
+
+
+
+
+
+
+[Messenger] 
+Description=Messenger
+Start State=
+
+
+
+
+[MHN]
+Description=MHN
+Start State=
+ 
+
+
+
+ 
+[SwPrv]
+Description=MS Software Shadow Copy Provider
+Start State=
+
+
+ 
+ 
+
+[Netlogon] 
+Description=Net Logon
+Start State=
+
+ 
+ 
+ 
+
+[mnmsrvc] 
+Description=NetMeeting Remote Desktop Sharing
+Start State=
+
+ 
+ 
+ 
+
+[napagent]
+Description=Network Access Protection Agent
+Start State=
+
+
+
+
+
+[Netman] 
+Description=Network Connections
+Start State=
+
+
+
+
+
+[NetDDE] 
+Description=Network DDE
+Start State=
+
+
+
+
+
+[NetDDEdsdm] 
+Description=Network DDE DSDM
+Start State=
+
+
+
+
+
+[Nla] 
+Description=Network Location Awareness (NLA)
+Start State=
+
+
+ 
+ 
+
+[xmlprov]
+Description=Network Provisioning Service
+Start State=
+
+ 
+ 
+ 
+
+[NtLmSsp]
+Description=NT LM Security Support Provider
+Start State=
+
+
+
+ 
+
+[PNRPSvc]
+Description=Peer Name Resolution Protocol
+Start State=
+
+
+
+
+
+[p2psvc]
+Description=Peer Networking
+Start State=
+
+
+
+
+
+[p2pgasvc]
+Description=Peer Networking Group Authentication
+Start State=
+
+
+
+
+
+[p2pimsvc]
+Description=Peer Networking Identity Manager
+Start State=
+
+
+
+
+
+[SysmonLog] 
+Description=Performance Logs and Alerts
+Start State= 
+
+
+ 
+ 
+
+[PlugPlay] 
+Description=Plug and Play
+Start State=
+
+
+
+
+
+[WmdmPmSN]  
+Description=Portable Media Serial Number Service
+Start State=
+
+ 
+ 
+ 
+
+[Spooler] 
+Description=Print Spooler
+Start State=
+
+
+
+ 
+
+[ProtectedStorage] 
+Description=Protected Storage
+Start State=
+
+
+ 
+ 
+
+[RSVP] 
+Description=QoS RSVP
+Start State=
+
+ 
+ 
+ 
+
+[RasAuto] 
+Description=Remote Access Auto Connection Manager
+Start State=
+
+
+ 
+ 
+
+[RasMan] 
+Description=Remote Access Connection Manager
+Start State=
+
+
+ 
+ 
+
+[RDSessMgr]
+Description=Remote Desktop Help Session Manager
+Start State=
+
+ 
+ 
+ 
+
+[RpcSs] 
+Description=Remote Procedure Call (RPC)
+Start State=
+
+
+
+
+
+
+[RpcLocator] 
+Description=Remote Procedure Call (RPC) Locator
+Start State=
+
+
+
+ 
+
+[RemoteRegistry] 
+Description=Remote Registry
+Start State=
+
+ 
+ 
+ 
+
+[NtmsSvc] 
+Description=Removable Storage
+Start State=
+
+
+ 
+ 
+
+[Iprip] 
+Description=RIP Listener
+Start State=
+
+
+
+
+
+[RemoteAccess] 
+Description=Routing and Remote Access
+Start State=
+
+
+
+
+
+[seclogon]
+Description=Secondary Logon
+Start State=
+
+ 
+ 
+ 
+
+[SamSs] 
+Description=Security Accounts Manager
+Start State=
+
+
+
+ 
+
+[wscsvc]
+Description=Security Center
+Start State=
+
+
+ 
+ 
+
+[lanmanserver] 
+Description=Server
+Start State=
+
+
+
+ 
+
+[ShellHWDetection] 
+Description=Shell Hardware Detection
+Start State=
+
+
+
+ 
+
+[SMTPSVC] 
+Description=Simple Mail Transport Protocol (SMTP)
+Start State=
+
+
+
+
+
+[SimpTcp]
+Description=Simple TCP/IP Services
+Start State=
+
+
+
+
+
+[SCardSvr] 
+Description=Smart Card
+Start State=
+
+
+
+
+
+[SNMP] 
+Description=SNMP Service
+Start State=
+
+
+
+
+
+[SNMPTRAP] 
+Description=SNMP Trap Service
+Start State=
+
+
+
+
+
+[SSDPSRV] 
+Description=SSDP Discovery Service
+Start State=
+
+
+ 
+ 
+
+[SENS] 
+Description=System Event Notification
+Start State=
+
+
+ 
+ 
+
+[srservice] 
+Description=System Restore Service
+Start State=
+
+
+ 
+ 
+
+[Schedule] 
+Description=Task Scheduler
+Start State=
+
+
+
+ 
+
+[LmHosts] 
+Description=TCP/IP NetBIOS Helper Service
+Start State=
+
+ 
+ 
+ 
+
+
+[LPDSVC] 
+Description=TCP/IP Printer Server
+Start State=
+
+
+
+
+
+[TapiSrv] 
+Description=Telephony
+Start State=
+
+
+
+ 
+
+[TlntSvr] 
+Description=Telnet
+Start State=
+
+ 
+ 
+ 
+
+[TermService] 
+Description=Terminal Services
+Start State=
+
+
+ 
+ 
+
+[Themes] 
+Description=Themes
+Start State=
+
+
+ 
+ 
+
+[UPS] 
+Description=Uninterruptible Power Supply
+Start State=
+
+ 
+ 
+ 
+
+[upnphost] 
+Description=Universal Plug and Play Device Host
+Start State=
+
+
+ 
+ 
+
+[VSS]
+Description=Volume Shadow Copy
+Start State=
+
+
+ 
+ 
+
+[WebClient] 
+Description=WebClient
+Start State=
+
+ 
+ 
+ 
+
+[AudioSrv] 
+Description=Windows Audio
+Start State=
+
+
+
+
+
+[SharedAccess]
+Description=Windows Firewall / Internet Connection Sharing
+Start State=
+
+
+
+ 
+
+[stisvc] 
+Description=Windows Image Acquisition (WIA)
+Start State=
+
+
+ 
+ 
+
+[MSIServer] 
+Description=Windows Installer
+Start State=
+
+
+
+
+
+[winmgmt] 
+Description=Windows Management Instrumentation
+Start State=
+
+
+
+
+
+[Wmi] 
+Description=Windows Management Instrumentation Driver Extension
+Start State=
+
+
+
+
+
+[W32Time] 
+Description=Windows Time
+Start State=
+
+ 
+ 
+ 
+
+
+[Dot3svc]
+Description=Wired AutoConfig
+Start State=
+
+
+ 
+ 
+
+[WZCSVC] 
+Description=Wireless Zero Configuration
+Start State=
+
+
+ 
+ 
+
+[WmiApSrv] 
+Description=WMI Performance Adapter
+Start State=
+
+ 
+ 
+ 
+
+[lanmanworkstation]
+Description=Workstation
+Start State=
+
+
+
+
+
+[w3svc]
+Description=World Wide Web Publishing
+Start State=
+
+
+
